@@ -1,0 +1,31 @@
+﻿weight_scenario,rank,strategy,total_loss_sum,consumer_weight,refinery_weight,cpi_weight,volatility_weight,security_weight,best_fixed_lambda,best_lambda_small,best_lambda_medium,best_lambda_large,best_lambda_extreme,notes
+baseline,1,S1_full_pass,5.162328,0.25,0.2,0.25,0.15,0.15,1,0.9,0.8,0.7,0.4,action=theory_adjust_rule
+baseline,2,S4_grid_best_fixed_lambda,5.162328,0.25,0.2,0.25,0.15,0.15,1,0.9,0.8,0.7,0.4,best lambda=1; threshold=50
+baseline,3,S5_grid_best_segmented,10.418538,0.25,0.2,0.25,0.15,0.15,1,0.9,0.8,0.7,0.4,"best small=0.9, medium=0.8, large=0.7, extreme=0.4"
+baseline,4,S0_current,12.363458,0.25,0.2,0.25,0.15,0.15,1,0.9,0.8,0.7,0.4,actual historical adjustment
+baseline,5,S2_fixed_70,14.574869,0.25,0.2,0.25,0.15,0.15,1,0.9,0.8,0.7,0.4,lambda=0.7; threshold=50
+baseline,6,S3_segmented_smoothing,14.599901,0.25,0.2,0.25,0.15,0.15,1,0.9,0.8,0.7,0.4,"small=1.0, medium=0.8, large=0.6, extreme=0.5"
+livelihood_priority,1,S1_full_pass,4.83729,0.35,0.15,0.3,0.1,0.1,1,0.9,0.8,0.7,0.4,action=theory_adjust_rule
+livelihood_priority,2,S4_grid_best_fixed_lambda,4.83729,0.35,0.15,0.3,0.1,0.1,1,0.9,0.8,0.7,0.4,best lambda=1; threshold=50
+livelihood_priority,3,S5_grid_best_segmented,8.897673,0.35,0.15,0.3,0.1,0.1,1,0.9,0.8,0.7,0.4,"best small=0.9, medium=0.8, large=0.7, extreme=0.4"
+livelihood_priority,4,S0_current,10.067539,0.35,0.15,0.3,0.1,0.1,1,0.9,0.8,0.7,0.4,actual historical adjustment
+livelihood_priority,5,S2_fixed_70,11.239813,0.35,0.15,0.3,0.1,0.1,1,0.9,0.8,0.7,0.4,lambda=0.7; threshold=50
+livelihood_priority,6,S3_segmented_smoothing,12.508349,0.35,0.15,0.3,0.1,0.1,1,0.9,0.8,0.7,0.4,"small=1.0, medium=0.8, large=0.6, extreme=0.5"
+refinery_priority,1,S1_full_pass,4.503724,0.15,0.35,0.2,0.15,0.15,1,0.9,0.8,0.6,0.4,action=theory_adjust_rule
+refinery_priority,2,S4_grid_best_fixed_lambda,4.503724,0.15,0.35,0.2,0.15,0.15,1,0.9,0.8,0.6,0.4,best lambda=1; threshold=50
+refinery_priority,3,S5_grid_best_segmented,9.606836,0.15,0.35,0.2,0.15,0.15,1,0.9,0.8,0.6,0.4,"best small=0.9, medium=0.8, large=0.6, extreme=0.4"
+refinery_priority,4,S0_current,12.364597,0.15,0.35,0.2,0.15,0.15,1,0.9,0.8,0.6,0.4,actual historical adjustment
+refinery_priority,5,S3_segmented_smoothing,13.594774,0.15,0.35,0.2,0.15,0.15,1,0.9,0.8,0.6,0.4,"small=1.0, medium=0.8, large=0.6, extreme=0.5"
+refinery_priority,6,S2_fixed_70,15.205032,0.15,0.35,0.2,0.15,0.15,1,0.9,0.8,0.6,0.4,lambda=0.7; threshold=50
+stability_priority,1,S1_full_pass,7.670978,0.2,0.15,0.2,0.3,0.15,1,0.9,0.8,0.6,0.4,action=theory_adjust_rule
+stability_priority,2,S4_grid_best_fixed_lambda,7.670978,0.2,0.15,0.2,0.3,0.15,1,0.9,0.8,0.6,0.4,best lambda=1; threshold=50
+stability_priority,3,S5_grid_best_segmented,13.611108,0.2,0.15,0.2,0.3,0.15,1,0.9,0.8,0.6,0.4,"best small=0.9, medium=0.8, large=0.6, extreme=0.4"
+stability_priority,4,S0_current,14.693046,0.2,0.15,0.2,0.3,0.15,1,0.9,0.8,0.6,0.4,actual historical adjustment
+stability_priority,5,S2_fixed_70,16.640422,0.2,0.15,0.2,0.3,0.15,1,0.9,0.8,0.6,0.4,lambda=0.7; threshold=50
+stability_priority,6,S3_segmented_smoothing,17.809974,0.2,0.15,0.2,0.3,0.15,1,0.9,0.8,0.6,0.4,"small=1.0, medium=0.8, large=0.6, extreme=0.5"
+security_priority,1,S1_full_pass,4.503724,0.15,0.2,0.2,0.15,0.3,1,0.9,0.8,0.6,0.4,action=theory_adjust_rule
+security_priority,2,S4_grid_best_fixed_lambda,4.503724,0.15,0.2,0.2,0.15,0.3,1,0.9,0.8,0.6,0.4,best lambda=1; threshold=50
+security_priority,3,S5_grid_best_segmented,11.356813,0.15,0.2,0.2,0.15,0.3,1,0.9,0.8,0.6,0.4,"best small=0.9, medium=0.8, large=0.6, extreme=0.4"
+security_priority,4,S0_current,16.916768,0.15,0.2,0.2,0.15,0.3,1,0.9,0.8,0.6,0.4,actual historical adjustment
+security_priority,5,S3_segmented_smoothing,18.997498,0.15,0.2,0.2,0.15,0.3,1,0.9,0.8,0.6,0.4,"small=1.0, medium=0.8, large=0.6, extreme=0.5"
+security_priority,6,S2_fixed_70,21.67115,0.15,0.2,0.2,0.15,0.3,1,0.9,0.8,0.6,0.4,lambda=0.7; threshold=50

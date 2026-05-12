@@ -19,3 +19,22 @@
 | `PMI_t` | `nbs_manufacturing_pmi`、`non_manufacturing_pmi`、`nbs_general_pmi` | 采购经理指数 | 指数点 | 经济景气度变量，用于解释调价偏差或传递差异 |
 
 主样本区间设为 `2016-01-01` 至 `2026-05-09`。`2013-2015` 年数据保留在基础主表中，后续可作为机制过渡期或稳健性补充样本。
+
+## 任务二：福利损失函数与策略模拟符号
+
+| 符号 | 对应代码字段 | 中文含义 | 单位 | 用途 |
+| --- | --- | --- | --- | --- |
+| `a_t` | `strategy_action_cny_per_ton` | 策略选择的实际调价幅度 | 元/吨 | 表示某一调价策略在第 `t` 个窗口给出的调价动作 |
+| `U_t` | `cumulative_unmet_gap` | 累计未传导缺口 | 元/吨 | `theory_adjust_rule_cny_per_ton - strategy_action_cny_per_ton` 的累计和，刻画长期未释放的成本压力 |
+| `L_consumer_t` | `consumer_loss`、`consumer_loss_raw` | 消费者福利损失 | 标准化值/平方元吨 | 上调幅度越大，消费者支付压力越高 |
+| `L_refinery_t` | `refinery_loss`、`refinery_loss_raw` | 炼油企业利润保障损失 | 标准化值/平方元吨 | 实际调价偏离理论成本调价越多，炼化利润保障越弱 |
+| `L_cpi_t` | `cpi_loss`、`cpi_loss_raw` | CPI 通胀冲击损失 | 标准化值/平方元吨 | 上调幅度在 CPI 压力较高时期造成更强通胀冲击 |
+| `L_volatility_t` | `volatility_loss`、`volatility_loss_raw` | 价格波动/经济预期冲击损失 | 标准化值/平方元吨 | 调价动作相对上一窗口变化越大，预期冲击越强 |
+| `L_security_t` | `security_loss`、`security_loss_raw` | 能源安全与供应稳定损失 | 标准化值/平方元吨 | 累计未传导缺口越大，供应稳定和安全压力越高 |
+| `L_total_t` | `total_loss` | 第 `t` 期社会总福利损失 | 标准化加权值 | 五类标准化损失的加权和 |
+| `J` | `total_loss_sum` | 全样本总福利损失 | 标准化加权值求和 | 用于比较不同调价策略的总体表现 |
+| `lambda` | `lambda`、`best_fixed_lambda` | 固定比例传导系数 | 无 | 固定比例策略中理论调价向实际调价的传导比例 |
+| `lambda_small` | `lambda_small` | 小幅理论调价分段传导比例 | 无 | 分段策略中 `50 <= abs(theory) < 300` 的传导比例 |
+| `lambda_medium` | `lambda_medium` | 中幅理论调价分段传导比例 | 无 | 分段策略中 `300 <= abs(theory) < 800` 的传导比例 |
+| `lambda_large` | `lambda_large` | 大幅理论调价分段传导比例 | 无 | 分段策略中 `800 <= abs(theory) < 1500` 的传导比例 |
+| `lambda_extreme` | `lambda_extreme` | 极端理论调价分段传导比例 | 无 | 分段策略中 `abs(theory) >= 1500` 的传导比例 |

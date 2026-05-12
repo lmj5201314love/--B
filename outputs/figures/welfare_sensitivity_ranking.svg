@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="550.0" y="30" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">Welfare Strategy Ranking under Weight Sensitivity</text>
+<text x="606.0" y="56" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Lower rank is better</text>
+<text x="276.0" y="60" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">S0_current</text>
+<text x="408.0" y="60" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">S1_full_pass</text>
+<text x="540.0" y="60" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">S2_fixed_70</text>
+<text x="672.0" y="60" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">S3_segmented_smoothing</text>
+<text x="804.0" y="60" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">S4_grid_best_fixed_lambda</text>
+<text x="936.0" y="60" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">S5_grid_best_segmented</text>
+<text x="196" y="113.0" text-anchor="end" font-family="Arial" font-size="12" fill="#333">baseline</text>
+<rect x="210.0" y="72.0" width="126" height="64" fill="#fdae61" opacity="0.88" stroke="white"/>
+<text x="273.0" y="113.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">4</text>
+<rect x="342.0" y="72.0" width="126" height="64" fill="#2ca25f" opacity="0.88" stroke="white"/>
+<text x="405.0" y="113.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">1</text>
+<rect x="474.0" y="72.0" width="126" height="64" fill="#f46d43" opacity="0.88" stroke="white"/>
+<text x="537.0" y="113.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">5</text>
+<rect x="606.0" y="72.0" width="126" height="64" fill="#d73027" opacity="0.88" stroke="white"/>
+<text x="669.0" y="113.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">6</text>
+<rect x="738.0" y="72.0" width="126" height="64" fill="#99d8c9" opacity="0.88" stroke="white"/>
+<text x="801.0" y="113.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">2</text>
+<rect x="870.0" y="72.0" width="126" height="64" fill="#fee08b" opacity="0.88" stroke="white"/>
+<text x="933.0" y="113.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">3</text>
+<text x="196" y="185.0" text-anchor="end" font-family="Arial" font-size="12" fill="#333">livelihood_priority</text>
+<rect x="210.0" y="144.0" width="126" height="64" fill="#fdae61" opacity="0.88" stroke="white"/>
+<text x="273.0" y="185.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">4</text>
+<rect x="342.0" y="144.0" width="126" height="64" fill="#2ca25f" opacity="0.88" stroke="white"/>
+<text x="405.0" y="185.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">1</text>
+<rect x="474.0" y="144.0" width="126" height="64" fill="#f46d43" opacity="0.88" stroke="white"/>
+<text x="537.0" y="185.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">5</text>
+<rect x="606.0" y="144.0" width="126" height="64" fill="#d73027" opacity="0.88" stroke="white"/>
+<text x="669.0" y="185.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">6</text>
+<rect x="738.0" y="144.0" width="126" height="64" fill="#99d8c9" opacity="0.88" stroke="white"/>
+<text x="801.0" y="185.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">2</text>
+<rect x="870.0" y="144.0" width="126" height="64" fill="#fee08b" opacity="0.88" stroke="white"/>
+<text x="933.0" y="185.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">3</text>
+<text x="196" y="257.0" text-anchor="end" font-family="Arial" font-size="12" fill="#333">refinery_priority</text>
+<rect x="210.0" y="216.0" width="126" height="64" fill="#fdae61" opacity="0.88" stroke="white"/>
+<text x="273.0" y="257.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">4</text>
+<rect x="342.0" y="216.0" width="126" height="64" fill="#2ca25f" opacity="0.88" stroke="white"/>
+<text x="405.0" y="257.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">1</text>
+<rect x="474.0" y="216.0" width="126" height="64" fill="#d73027" opacity="0.88" stroke="white"/>
+<text x="537.0" y="257.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">6</text>
+<rect x="606.0" y="216.0" width="126" height="64" fill="#f46d43" opacity="0.88" stroke="white"/>
+<text x="669.0" y="257.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">5</text>
+<rect x="738.0" y="216.0" width="126" height="64" fill="#99d8c9" opacity="0.88" stroke="white"/>
+<text x="801.0" y="257.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">2</text>
+<rect x="870.0" y="216.0" width="126" height="64" fill="#fee08b" opacity="0.88" stroke="white"/>
+<text x="933.0" y="257.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">3</text>
+<text x="196" y="329.0" text-anchor="end" font-family="Arial" font-size="12" fill="#333">stability_priority</text>
+<rect x="210.0" y="288.0" width="126" height="64" fill="#fdae61" opacity="0.88" stroke="white"/>
+<text x="273.0" y="329.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">4</text>
+<rect x="342.0" y="288.0" width="126" height="64" fill="#2ca25f" opacity="0.88" stroke="white"/>
+<text x="405.0" y="329.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">1</text>
+<rect x="474.0" y="288.0" width="126" height="64" fill="#f46d43" opacity="0.88" stroke="white"/>
+<text x="537.0" y="329.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">5</text>
+<rect x="606.0" y="288.0" width="126" height="64" fill="#d73027" opacity="0.88" stroke="white"/>
+<text x="669.0" y="329.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">6</text>
+<rect x="738.0" y="288.0" width="126" height="64" fill="#99d8c9" opacity="0.88" stroke="white"/>
+<text x="801.0" y="329.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">2</text>
+<rect x="870.0" y="288.0" width="126" height="64" fill="#fee08b" opacity="0.88" stroke="white"/>
+<text x="933.0" y="329.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">3</text>
+<text x="196" y="401.0" text-anchor="end" font-family="Arial" font-size="12" fill="#333">security_priority</text>
+<rect x="210.0" y="360.0" width="126" height="64" fill="#fdae61" opacity="0.88" stroke="white"/>
+<text x="273.0" y="401.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">4</text>
+<rect x="342.0" y="360.0" width="126" height="64" fill="#2ca25f" opacity="0.88" stroke="white"/>
+<text x="405.0" y="401.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">1</text>
+<rect x="474.0" y="360.0" width="126" height="64" fill="#d73027" opacity="0.88" stroke="white"/>
+<text x="537.0" y="401.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">6</text>
+<rect x="606.0" y="360.0" width="126" height="64" fill="#f46d43" opacity="0.88" stroke="white"/>
+<text x="669.0" y="401.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">5</text>
+<rect x="738.0" y="360.0" width="126" height="64" fill="#99d8c9" opacity="0.88" stroke="white"/>
+<text x="801.0" y="401.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">2</text>
+<rect x="870.0" y="360.0" width="126" height="64" fill="#fee08b" opacity="0.88" stroke="white"/>
+<text x="933.0" y="401.0" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#222">3</text>
+<text x="550.0" y="582" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">Ranks are recomputed after re-searching S4 and S5 under each weight scenario.</text>
+</svg>
