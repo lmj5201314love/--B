@@ -1,0 +1,7 @@
+﻿sample_group,model,MAE,RMSE,direction_accuracy,adjustment_accuracy,up_direction_accuracy,down_direction_accuracy,no_adjust_recognition_accuracy,sample_size
+main_sample_2016_onward,raw_linear,69.137348,109.847058,0.753846,0.780769,0.966102,0.964706,0,260
+main_sample_2016_onward,rule_threshold_carry,68.511434,111.422119,0.830769,0.838462,0.889831,0.870588,0.649123,260
+actual_adjusted_windows,raw_linear,67.089409,94.491424,0.965517,1,0.966102,0.964706,,203
+actual_adjusted_windows,rule_threshold_carry,69.382974,97.041367,0.881773,0.891626,0.889831,0.870588,,203
+actual_no_adjust_windows,raw_linear,76.430887,152.450512,0,0,,,0,57
+actual_no_adjust_windows,rule_threshold_carry,65.407528,151.958821,0.649123,0.649123,,,0.649123,57

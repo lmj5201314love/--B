@@ -1,0 +1,5 @@
+﻿oil_price_regime,sample_size,mean_actual_adjust,mean_theory_adjust,mean_pass_through_ratio,no_adjust_rate,mean_abs_error,max_up_adjust,max_down_adjust
+low,16,-99.6875,-78.944893,0.289899,0.75,232.15207,,-995
+normal,187,7.152406,7.304657,1.310252,0.192513,53.054235,682.5,-530
+high,57,70,63.678024,0.943809,0.157895,73.287679,1137.5,-542.5
+extreme_high,0,,,,,,,
