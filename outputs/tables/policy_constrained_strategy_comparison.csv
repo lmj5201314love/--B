@@ -1,0 +1,5 @@
+﻿strategy,total_loss_sum,consumer_loss_sum,refinery_loss_sum,cpi_loss_sum,volatility_loss_sum,security_loss_sum,mean_abs_action,max_up_action,max_down_action,no_adjust_rate,large_up_count,extreme_up_count,final_cumulative_unmet_gap
+S1_full_pass_policy_band,7.304178,8.072747,0,8.439609,21.173928,0,117.905623,679.538636,-593.872823,0.269231,8,0,0
+S0_current,14.073332,5.391846,4.27414,5.59219,21.014008,48.802623,162.817308,1137.5,-995,0.219231,15,1,220.736018
+S5_segmented_policy_band,18.785343,9.329051,9.192846,9.762216,22.454377,58.705336,102.574016,543.630909,-475.098258,0.288462,5,0,433.222944
+S6_policy_acceptability_rule,18.785343,9.329051,9.192846,9.762216,22.454377,58.705336,102.574016,543.630909,-475.098258,0.288462,5,0,433.222944

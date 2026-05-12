@@ -1,0 +1,4 @@
+﻿model,MAE,RMSE,direction_accuracy,adjustment_accuracy,no_adjust_recognition_accuracy,low_oil_MAE,normal_oil_MAE,high_oil_MAE,low_oil_no_adjust_recognition_accuracy,sample_size
+raw_linear,69.137348,109.847058,0.753846,0.780769,0,230.41126,54.21659,72.818036,0,260
+rule_threshold_carry,68.511434,111.422119,0.830769,0.838462,0.649123,232.15207,53.054235,73.287679,0,260
+policy_band_rule,73.313376,127.573595,0.826923,0.834615,0.736842,199.902337,53.031755,104.317584,0.416667,260

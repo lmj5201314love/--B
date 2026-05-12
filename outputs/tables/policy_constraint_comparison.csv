@@ -1,0 +1,7 @@
+﻿strategy,large_up_count,extreme_up_count,max_up_action,action_volatility,cpi_pressure_up_count,no_adjust_rate,final_cumulative_unmet_gap,total_loss_baseline,policy_acceptability_score
+S2_fixed_70,6,1,815.397905,139.880819,3,0.330769,1258.790106,14.574869,0.25
+S3_segmented_smoothing,8,0,698.91249,173.373353,5,0.226923,485.849884,14.599901,0.320761
+S5_grid_best_segmented,8,1,815.397905,166.501932,5,0.226923,616.174945,10.418538,0.555104
+S0_current,15,1,1137.5,227.652943,4,0.219231,0.000029,12.363458,0.888259
+S1_full_pass,14,1,1164.85415,200.820826,5,0.226923,0,5.162328,0.916637
+S4_grid_best_fixed_lambda,14,1,1164.85415,200.820826,5,0.226923,0,5.162328,0.916637

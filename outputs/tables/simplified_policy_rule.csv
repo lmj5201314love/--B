@@ -1,0 +1,6 @@
+﻿theory_adjust_abs_range,recommended_lambda,policy_meaning,reason,robustness_evidence
+0-50,0,No immediate adjustment; enter stranded carry term,"Below 50 CNY/ton threshold, frequent tiny adjustments are not policy-efficient",Rule inherited from refined-oil adjustment threshold
+50-300,0.9-1.0,Near-full pass-through for small shocks,Small changes have limited CPI/volatility impact and should avoid cost accumulation,Baseline small=0.9; sensitivity 0.9: 5/5
+300-800,0.8,Moderate smoothing for medium shocks,Balances cost pass-through and consumer/CPI pressure,Baseline medium=0.8; sensitivity 0.8: 5/5
+800-1500,0.6-0.7,Strong smoothing for large shocks,Large one-off adjustments create visible policy acceptability pressure,Baseline large=0.7; sensitivity 0.6: 3/5; 0.7: 2/5
+>=1500,0.4,Extreme-shock cap with substantial smoothing,Extreme shocks should be split over time to protect expectations and CPI stability,Baseline extreme=0.4; sensitivity 0.4: 5/5
