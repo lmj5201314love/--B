@@ -1,0 +1,9 @@
+﻿metric,value
+total_windows,329
+up_count,137
+down_count,118
+no_adjust_count,74
+average_up_adjust_cny_per_ton,192.883212
+average_down_adjust_cny_per_ton,-216.25
+max_up_adjust_cny_per_ton,1137.5
+max_down_adjust_cny_per_ton,-995

@@ -12,15 +12,6 @@ __pycache__/
 # Jupyter 临时文件
 .ipynb_checkpoints/
 
-# 数据文件：默认不提交，避免误传大文件或私有数据
-*.csv
-*.xlsx
-*.xls
-*.db
-
-# 允许提交本项目使用的公开小型原始数据集
-!data/raw/ai4i2020.csv
-
 # IDE 配置
 .vscode/
 .idea/

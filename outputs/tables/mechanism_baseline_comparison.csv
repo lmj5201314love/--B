@@ -1,0 +1,6 @@
+﻿proxy_variable,sample_size,k,b,MAE,RMSE,direction_accuracy,is_selected_proxy
+basket_window_change,260,39.533953,3.149566,82.216721,120.634103,0.765385,0
+brent_window_change,260,45.363975,1.848747,74.161451,113.004124,0.746154,0
+wti_window_change,260,48.324419,2.865709,71.783077,116.992709,0.753846,0
+brent_wti_avg_window_change,260,48.653461,2.009018,67.316263,109.946341,0.753846,0
+brent_wti_weighted_window_change,260,47.719011,1.803467,69.137348,109.847058,0.753846,1

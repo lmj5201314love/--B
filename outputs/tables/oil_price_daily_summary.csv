@@ -1,0 +1,6 @@
+﻿series,non_missing_count,missing_count,date_min,date_max,mean,min,max
+basket_usd_per_bbl,6022,4368,2003-01-02,2026-05-08,70.616425,12.22,146.05
+brent_usd_per_bbl,9883,507,1987-05-20,2026-05-01,51.102119,9.1,143.95
+wti_usd_per_bbl,10153,237,1986-01-02,2026-05-04,48.31667,-36.98,145.31
+brent_wti_avg_usd_per_bbl,9708,682,1987-05-20,2026-05-01,50.32306,-9.81,144.63
+brent_wti_weighted_usd_per_bbl,9708,682,1987-05-20,2026-05-01,50.660428,1.058,144.358
