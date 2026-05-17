@@ -1,0 +1,9 @@
+﻿field,period,action,method,source,source_url
+crude_import_ton/crude_import_value_usd,2025-01_to_2025-11,已补入,使用华经情报网月度统计；部分月份由同源累计值相减得到；原金额单位为万美元，已乘以10000转为美元,华经情报网中国原油进口统计,https://www.huaon.com/tag/yuanyou
+crude_import_ton,2025-12,只补入进口量,年度统计文章给出12月进口数量；未找到同一口径12月单月美元金额，金额保持空白,华经情报网2025年中国原油进口统计,https://www.huaon.com/channel/tradedata/1144105.html
+crude_import_ton/crude_import_value_usd,2026-01_to_2026-03,已补入,2026-02和2026-03使用华经月度文章直接值；2026-01由2026年1-2月累计减2026-02单月得到,华经情报网2026年2月和3月中国原油进口统计,https://www.huaon.com/channel/tradedata/1158507.html ; https://www.huaon.com/channel/tradedata/1162358.html
+crude_import_ton,2026-04,只补入进口量,公开报道引用海关统计给出4月原油进口量；未找到同口径美元金额，金额保持空白,搜狐/明辉说油：中国1-4月原油进口1.85亿吨,https://www.sohu.com/a/1020221230_796483
+crude_import_ton/crude_import_value_usd,2020-01,未补,原表2020-02行疑似保留1-2月合计口径；未找到可核验的2020-01单月进口量和美元金额，未拆分,未找到可核验单月来源,
+crude_output_ton,2016-2026各年1月和2月,已估算，并在数值后标注拟合,用2000-2015年中15个有效年份的2月当月值和1-2月累计值计算历史均值：1月占比0.522500，2月占比0.477500；按该比例拆分2016年以后1-2月累计值,中商情报网/AskCI国家统计局月度产量表，指标a030102,https://s.askci.com/data/energy/a030102/
+crude_processing_ton,2016-2026各年1月和2月,已估算，并在数值后标注拟合,用2001-2015年中14个有效年份的2月当月值和1-2月累计值计算历史均值：1月占比0.511330，2月占比0.488670；按该比例拆分2016年以后1-2月累计值,中商情报网/AskCI国家统计局月度产量表，指标a030106,https://s.askci.com/data/energy/a030106/
+crude_output_ton/crude_processing_ton,2026-04,未补,截至本次检索未找到国家统计局2026年4月份能源生产情况公开页,未找到可核验官方单月来源,

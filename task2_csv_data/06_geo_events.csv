@@ -1,0 +1,17 @@
+event_id,start_date,end_date,region,event_type,geo_risk_score,source_note,manual_flag,assumption_flag
+GEO001,2016-01-01,2017-05-31,global,baseline_normal,0.0,No major oil-producing-region conflict or key shipping-channel disruption recorded for model baseline.,1,1
+GEO002,2017-06-05,2018-04-30,Persian Gulf,diplomatic_sanctions_tension,0.25,Qatar diplomatic crisis and regional sanctions tension; limited direct oil-route disruption.,1,1
+GEO003,2018-05-08,2018-12-31,Iran,sanctions_export_risk,0.5,US withdrawal from JCPOA and Iran oil-sanction escalation raised exporter risk.,1,1
+GEO004,2019-05-01,2019-08-31,Persian Gulf,tanker_hormuz_tension,0.75,Oil tanker incidents and Strait of Hormuz threats increased shipping-channel risk.,1,1
+GEO005,2019-09-14,2019-10-31,Saudi Arabia,oil_facility_attack,0.75,Abqaiq-Khurais attacks temporarily threatened Saudi production infrastructure.,1,1
+GEO006,2020-01-03,2020-01-31,Iran/Iraq,military_confrontation,0.5,US-Iran confrontation after Soleimani strike increased regional escalation risk.,1,1
+GEO007,2020-02-01,2021-12-31,global,baseline_normal,0.0,Pandemic-era oil demand shock is not scored as geopolitical supply-route risk here.,1,1
+GEO008,2022-02-24,2022-12-31,Russia/Ukraine,war_sanctions_supply_risk,0.75,Russia-Ukraine war and sanctions raised oil export and shipping-insurance risk.,1,1
+GEO009,2023-01-01,2023-09-30,Russia/Ukraine,continuing_sanctions,0.5,Continuing Russia-related sanctions and supply rerouting kept medium geopolitical risk.,1,1
+GEO010,2023-10-07,2023-12-31,Middle East,regional_conflict,0.5,Israel-Hamas war raised regional spillover risk without direct Hormuz blockage.,1,1
+GEO011,2023-12-15,2024-03-31,Red Sea,shipping_attack_risk,0.75,Red Sea shipping attacks increased rerouting and insurance risk for energy cargoes.,1,1
+GEO012,2024-04-01,2024-04-30,Iran/Israel,direct_strike_risk,0.75,Direct Iran-Israel strike cycle raised regional escalation and supply-route risk.,1,1
+GEO013,2024-05-01,2025-12-31,Middle East/Red Sea,persistent_regional_shipping_risk,0.5,"Persistent Red Sea and Middle East conflict risk, but no sustained key-channel closure.",1,1
+GEO014,2026-01-01,2026-02-28,Middle East/Red Sea,elevated_tension,0.25,Manual continuation assumption for unresolved regional shipping and sanction tension.,1,1
+GEO015,2026-03-01,2026-04-15,Middle East/key channels,special_control_case_supply_route_risk,0.75,Manual scenario flag aligned to task special control windows 2026-03-23 and 2026-04-07; not inferred from Brent prices.,1,1
+GEO016,2026-04-16,2026-05-15,Middle East/key channels,risk_easing_but_elevated,0.5,Manual scenario assumption after the special control windows; risk remains above baseline.,1,1

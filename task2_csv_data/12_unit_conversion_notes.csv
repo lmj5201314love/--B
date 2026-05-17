@@ -1,0 +1,8 @@
+item,original_unit,target_unit,conversion_method,source,notes
+refined_product_price,yuan_per_ton,yuan_per_ton,No conversion; refined-product adjustments and ceiling prices remain yuan per ton.,NDRC notices,Do not mix yuan/liter data into main model without reliable density factors.
+crude_oil_price,usd_per_barrel,usd_per_barrel,No conversion; Brent and WTI remain USD per barrel.,FRED/EIA,Monthly averages are arithmetic means of daily values.
+exchange_rate,yuan_per_usd,yuan_per_usd,Average daily USD/CNY by month for usd_cny_avg.,Local exchange-rate CSV,usd_cny_avg is RMB yuan per 1 USD.
+cpi_ppi_growth,percent,decimal,Divide by 100; 2.5 percent becomes 0.025.,NBS/AkShare,"Applies to CPI, PPI, CPI target, weights and change rates."
+crude_supply_volume,ton,ton,No conversion; supply/trade/processing volumes stored as metric tons.,NBS/AskCI/customs,crude_export_ton stays blank when unavailable.
+liter_price_data,yuan_per_liter,yuan_per_ton,Do not convert unless product-specific density factors are documented.,Task unit rule,Main model uses yuan/ton only.
+barrel_to_ton_inventory_proxy,usd_per_barrel_std,yuan_per_ton,inventory_cost_proxy_yuan_per_ton = Brent window std * usd_cny_avg * 7.33.,Common crude barrel-ton proxy,Assumption/proxy; marked in source log and flags.

@@ -25,3 +25,5 @@ Thumbs.db
 
 # 本地数据库会话文件
 *.session.sql
+
+.csv

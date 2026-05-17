@@ -1,0 +1,84 @@
+check_id,file_name,check_item,check_result,problem_description,suggested_fix,severity
+QC001,01_adjustment_windows.csv,csv_exists,pass,File exists.,Regenerate requested CSV set.,low
+QC002,01_adjustment_windows.csv,has_header,pass,Header present.,Regenerate with requested table header.,low
+QC003,01_adjustment_windows.csv,schema_matches_requested_columns,pass,Columns match requested schema.,Regenerate with exact requested columns.,low
+QC004,02_daily_brent_price.csv,csv_exists,pass,File exists.,Regenerate requested CSV set.,low
+QC005,02_daily_brent_price.csv,has_header,pass,Header present.,Regenerate with requested table header.,low
+QC006,02_daily_brent_price.csv,schema_matches_requested_columns,pass,Columns match requested schema.,Regenerate with exact requested columns.,low
+QC007,03_monthly_macro.csv,csv_exists,pass,File exists.,Regenerate requested CSV set.,low
+QC008,03_monthly_macro.csv,has_header,pass,Header present.,Regenerate with requested table header.,low
+QC009,03_monthly_macro.csv,schema_matches_requested_columns,pass,Columns match requested schema.,Regenerate with exact requested columns.,low
+QC010,04_monthly_oil_supply.csv,csv_exists,pass,File exists.,Regenerate requested CSV set.,low
+QC011,04_monthly_oil_supply.csv,has_header,pass,Header present.,Regenerate with requested table header.,low
+QC012,04_monthly_oil_supply.csv,schema_matches_requested_columns,pass,Columns match requested schema.,Regenerate with exact requested columns.,low
+QC013,05_monthly_product_consumption.csv,csv_exists,pass,File exists.,Regenerate requested CSV set.,low
+QC014,05_monthly_product_consumption.csv,has_header,pass,Header present.,Regenerate with requested table header.,low
+QC015,05_monthly_product_consumption.csv,schema_matches_requested_columns,pass,Columns match requested schema.,Regenerate with exact requested columns.,low
+QC016,06_geo_events.csv,csv_exists,pass,File exists.,Regenerate requested CSV set.,low
+QC017,06_geo_events.csv,has_header,pass,Header present.,Regenerate with requested table header.,low
+QC018,06_geo_events.csv,schema_matches_requested_columns,pass,Columns match requested schema.,Regenerate with exact requested columns.,low
+QC019,07_refinery_cost_assumptions.csv,csv_exists,pass,File exists.,Regenerate requested CSV set.,low
+QC020,07_refinery_cost_assumptions.csv,has_header,pass,Header present.,Regenerate with requested table header.,low
+QC021,07_refinery_cost_assumptions.csv,schema_matches_requested_columns,pass,Columns match requested schema.,Regenerate with exact requested columns.,low
+QC022,08_task2_model_panel.csv,csv_exists,pass,File exists.,Regenerate requested CSV set.,low
+QC023,08_task2_model_panel.csv,has_header,pass,Header present.,Regenerate with requested table header.,low
+QC024,08_task2_model_panel.csv,schema_matches_requested_columns,pass,Columns match requested schema.,Regenerate with exact requested columns.,low
+QC025,09_task2_monthly_panel.csv,csv_exists,pass,File exists.,Regenerate requested CSV set.,low
+QC026,09_task2_monthly_panel.csv,has_header,pass,Header present.,Regenerate with requested table header.,low
+QC027,09_task2_monthly_panel.csv,schema_matches_requested_columns,pass,Columns match requested schema.,Regenerate with exact requested columns.,low
+QC028,10_data_dictionary.csv,csv_exists,pass,File exists.,Regenerate requested CSV set.,low
+QC029,10_data_dictionary.csv,has_header,pass,Header present.,Regenerate with requested table header.,low
+QC030,10_data_dictionary.csv,schema_matches_requested_columns,pass,Columns match requested schema.,Regenerate with exact requested columns.,low
+QC031,11_data_source_log.csv,csv_exists,pass,File exists.,Regenerate requested CSV set.,low
+QC032,11_data_source_log.csv,has_header,pass,Header present.,Regenerate with requested table header.,low
+QC033,11_data_source_log.csv,schema_matches_requested_columns,pass,Columns match requested schema.,Regenerate with exact requested columns.,low
+QC034,12_unit_conversion_notes.csv,csv_exists,pass,File exists.,Regenerate requested CSV set.,low
+QC035,12_unit_conversion_notes.csv,has_header,pass,Header present.,Regenerate with requested table header.,low
+QC036,12_unit_conversion_notes.csv,schema_matches_requested_columns,pass,Columns match requested schema.,Regenerate with exact requested columns.,low
+QC037,13_data_quality_check.csv,csv_exists,pass,File exists after final quality-check generation.,No action.,low
+QC038,01_adjustment_windows.csv,date_fields_parse,pass,All date fields parse.,Use YYYY-MM-DD dates.,low
+QC039,02_daily_brent_price.csv,date_fields_parse,pass,All date fields parse.,Use YYYY-MM-DD dates.,low
+QC040,03_monthly_macro.csv,date_fields_parse,pass,All date fields parse.,Use YYYY-MM-DD dates.,low
+QC041,04_monthly_oil_supply.csv,date_fields_parse,pass,All date fields parse.,Use YYYY-MM-DD dates.,low
+QC042,05_monthly_product_consumption.csv,date_fields_parse,pass,All date fields parse.,Use YYYY-MM-DD dates.,low
+QC043,06_geo_events.csv,date_fields_parse,pass,All date fields parse.,Use YYYY-MM-DD dates.,low
+QC044,07_refinery_cost_assumptions.csv,date_fields_parse,pass,All date fields parse.,Use YYYY-MM-DD dates.,low
+QC045,08_task2_model_panel.csv,date_fields_parse,pass,All date fields parse.,Use YYYY-MM-DD dates.,low
+QC046,09_task2_monthly_panel.csv,date_fields_parse,pass,All date fields parse.,Use YYYY-MM-DD dates.,low
+QC047,10_data_dictionary.csv,date_fields_parse,pass,All date fields parse.,Use YYYY-MM-DD dates.,low
+QC048,11_data_source_log.csv,date_fields_parse,pass,All date fields parse.,Use YYYY-MM-DD dates.,low
+QC049,12_unit_conversion_notes.csv,date_fields_parse,pass,All date fields parse.,Use YYYY-MM-DD dates.,low
+QC050,01_adjustment_windows.csv,starts_in_2016_no_2015_data,pass,First adjustment window is 2016-01-13; no 2015 rows included.,No action unless a template row for 2016-01-01 is required.,low
+QC051,01_adjustment_windows.csv,latest_adjustment_window,pass,Latest adjustment window is 2026-05-08.,Refresh NDRC notices if newer windows are available.,low
+QC052,01_adjustment_windows.csv,contains_2026-03-23,pass,adjust_date 2026-03-23 present.,Use notice_date as adjust_date for special 2026 windows.,low
+QC053,01_adjustment_windows.csv,contains_2026-04-07,pass,adjust_date 2026-04-07 present.,Use notice_date as adjust_date for special 2026 windows.,low
+QC054,08_task2_model_panel.csv,starts_in_2016_no_2015_data,pass,First adjustment window is 2016-01-13; no 2015 rows included.,No action unless a template row for 2016-01-01 is required.,low
+QC055,08_task2_model_panel.csv,latest_adjustment_window,pass,Latest adjustment window is 2026-05-08.,Refresh NDRC notices if newer windows are available.,low
+QC056,08_task2_model_panel.csv,contains_2026-03-23,pass,adjust_date 2026-03-23 present.,Use notice_date as adjust_date for special 2026 windows.,low
+QC057,08_task2_model_panel.csv,contains_2026-04-07,pass,adjust_date 2026-04-07 present.,Use notice_date as adjust_date for special 2026 windows.,low
+QC058,02_daily_brent_price.csv,starts_at_2016_01_01,pass,Starts at 2016-01-01.,Keep daily range from 2016-01-01.,low
+QC059,02_daily_brent_price.csv,covers_minimum_end_date,pass,Latest Brent row is 2026-05-01; minimum 2026-04-30 satisfied.,Refresh FRED/EIA for newer Brent observations.,low
+QC060,03_monthly_macro.csv,starts_at_2016_01,pass,Starts at 2016-01.,Adjust range to start at 2016-01.,low
+QC061,03_monthly_macro.csv,covers_2026_04,pass,Latest month is 2026-04.,Refresh monthly data to at least 2026-04.,low
+QC062,04_monthly_oil_supply.csv,starts_at_2016_01,pass,Starts at 2016-01.,Adjust range to start at 2016-01.,low
+QC063,04_monthly_oil_supply.csv,covers_2026_04,pass,Latest month is 2026-04.,Refresh monthly data to at least 2026-04.,low
+QC064,05_monthly_product_consumption.csv,starts_at_2016_01,pass,Starts at 2016-01.,Adjust range to start at 2016-01.,low
+QC065,05_monthly_product_consumption.csv,covers_2026_04,pass,Latest month is 2026-04.,Refresh monthly data to at least 2026-04.,low
+QC066,09_task2_monthly_panel.csv,starts_at_2016_01,pass,Starts at 2016-01.,Adjust range to start at 2016-01.,low
+QC067,09_task2_monthly_panel.csv,covers_2026_04,pass,Latest month is 2026-04.,Refresh monthly data to at least 2026-04.,low
+QC068,06_geo_events.csv;08_task2_model_panel.csv;09_task2_monthly_panel.csv,geo_risk_score_between_0_and_1,pass,"All geo risk scores are within [0,1].",Rescore using requested rubric.,low
+QC069,05_monthly_product_consumption.csv,gasoline_weight_plus_diesel_weight_about_1,pass,Weights sum to approximately 1.,Recalculate weights or use 0.5/0.5 fallback.,low
+QC070,08_task2_model_panel.csv;09_task2_monthly_panel.csv,crude_import_dependency_between_0_and_1_2,pass,"All available crude_import_dependency values are within [0,1.2].",Review denominator and export assumption.,low
+QC071,all_csv,price_fields_no_abnormal_negative_values,warn,One WTI price row is negative; this is the known April 2020 exceptional WTI market quotation and is retained as source data.,Keep raw value for auditability or winsorize in downstream modeling only if documented.,medium
+QC072,01_adjustment_windows.csv;08_task2_model_panel.csv;09_task2_monthly_panel.csv,theory_and_actual_adjust_not_extreme,pass,No absolute adjustment exceeds 3000 yuan/ton.,Review against notices and theory formula.,low
+QC073,all_csv,assumption_flag_1_records_documented,pass,assumption_flag=1 appears in: 02_daily_brent_price.csv; 05_monthly_product_consumption.csv; 06_geo_events.csv; 07_refinery_cost_assumptions.csv; 08_task2_model_panel.csv; 09_task2_monthly_panel.csv,See 11_data_source_log.csv and source/note columns.,low
+QC074,08_task2_model_panel.csv;09_task2_monthly_panel.csv,monthly_data_matches_adjustment_windows,warn,Adjustment months missing from monthly panel: 2026-05,Refresh monthly macro/supply data for missing adjustment months; 2026-05 macro not available in local sources.,medium
+QC075,04_monthly_oil_supply.csv,missing_crude_export_ton,warn,124 rows have missing crude_export_ton.,Supplement from customs/NBS or other auditable public source; keep blank until verified.,medium
+QC076,04_monthly_oil_supply.csv,missing_crude_import_ton,warn,17 rows have missing crude_import_ton.,Supplement from customs/NBS or other auditable public source; keep blank until verified.,medium
+QC077,04_monthly_oil_supply.csv,missing_crude_production_ton,warn,23 rows have missing crude_production_ton.,Supplement from customs/NBS or other auditable public source; keep blank until verified.,medium
+QC078,04_monthly_oil_supply.csv,missing_crude_processing_ton,warn,23 rows have missing crude_processing_ton.,Supplement from customs/NBS or other auditable public source; keep blank until verified.,medium
+QC079,05_monthly_product_consumption.csv,missing_gasoline_consumption_ton,warn,23 rows have missing gasoline_consumption_ton.,Supplement from customs/NBS or other auditable public source; keep blank until verified.,medium
+QC080,05_monthly_product_consumption.csv,missing_diesel_consumption_ton,warn,23 rows have missing diesel_consumption_ton.,Supplement from customs/NBS or other auditable public source; keep blank until verified.,medium
+QC081,08_task2_model_panel.csv,missing_crude_import_dependency,warn,66 rows have missing crude_import_dependency.,Supplement from customs/NBS or other auditable public source; keep blank until verified.,medium
+QC082,08_task2_model_panel.csv,missing_gasoline_consumption_ton,warn,45 rows have missing gasoline_consumption_ton.,Supplement from customs/NBS or other auditable public source; keep blank until verified.,medium
+QC083,08_task2_model_panel.csv,missing_cpi_yoy,warn,1 rows have missing cpi_yoy.,Supplement from customs/NBS or other auditable public source; keep blank until verified.,medium

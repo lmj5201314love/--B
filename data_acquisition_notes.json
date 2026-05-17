@@ -1,0 +1,81 @@
+{
+  "generated_on": "2026-05-13",
+  "timezone": "Asia/Shanghai",
+  "files": {
+    "oil_price_daily.csv": {
+      "rows": 3786,
+      "brent_usd_bbl": 3774,
+      "wti_usd_bbl": 3777,
+      "opec_usd_bbl": 3781
+    },
+    "product_consumption_monthly.csv": {
+      "rows": 124,
+      "gasoline_output_ton": 101,
+      "diesel_output_ton": 101,
+      "gasoline_import_ton": 0,
+      "diesel_import_ton": 0,
+      "gasoline_export_ton": 0,
+      "diesel_export_ton": 0
+    },
+    "crude_supply_monthly.csv": {
+      "rows": 124,
+      "crude_import_ton": 107,
+      "crude_import_value_usd": 107,
+      "crude_output_ton": 101,
+      "crude_export_ton": 0,
+      "crude_processing_ton": 101
+    },
+    "macro_price_monthly.csv": {
+      "rows": 124,
+      "cpi_yoy": 124,
+      "cpi_mom": 124,
+      "cpi_transport_yoy": 4,
+      "cpi_transport_mom": 4,
+      "ppi_yoy": 124,
+      "ppi_mom": 124,
+      "ppi_fuel_power_yoy": 124
+    },
+    "cpi_target_annual.csv": {
+      "rows": 11,
+      "cpi_target": 11
+    },
+    "expectation_search_daily.csv": {
+      "rows": 22716,
+      "search_index": 0
+    },
+    "oil_news_sentiment_daily.csv": {
+      "rows": 3786,
+      "total_news": 0,
+      "negative_news": 0,
+      "positive_news": 0,
+      "sentiment_score": 0
+    }
+  },
+  "sources": {
+    "oil_price_daily": [
+      "FRED/EIA daily spot prices: DCOILBRENTEU and DCOILWTICO, with local raw CSV fallback.",
+      "OPEC Reference Basket daily local raw CSV fallback from the existing project source file.",
+      "Trading-day quote gaps inside each source's observed range are forward-filled to produce a natural daily frequency; dates after a source's latest observed quote are left blank."
+    ],
+    "product_and_crude_output": [
+      "AskCI/NBS public monthly output pages via MonthDetail API: a030107 gasoline, a030109 diesel, a030102 crude oil, a030106 crude processing.",
+      "NBS industrial output does not publish a separate January current-month value; Jan-Feb is usually reported as an accumulated value. The current-month field is left blank when the source table is blank."
+    ],
+    "customs": [
+      "Crude oil import volume and value are taken from the existing project raw customs CSV through 2024-12.",
+      "Open bulk monthly gasoline/diesel import/export and crude export tonnage was not available from accessible public endpoints in this run. Those requested columns are retained with blank values."
+    ],
+    "macro_price": [
+      "CPI headline yoy/mom from AkShare/Eastmoney public data.",
+      "PPI yoy/mom and fuel-power purchase price yoy from NBS publicrelease API.",
+      "CPI transport yoy/mom from NBS publicrelease API is currently exposed only for 2026 months through the accessible endpoint; earlier months remain blank."
+    ],
+    "cpi_target": [
+      "2016-2024 targets follow the annual Government Work Report CPI targets; 2025 and 2026 are 2.0 around as verified from the published work reports."
+    ],
+    "expectations_and_news": [
+      "Baidu Index and WeChat Index require authenticated export access, so expectation_search_daily.csv is a structured template with blank search_index.",
+      "No auditable open news corpus/classifier was available in this run for the requested Chinese oil-news sentiment counts, so oil_news_sentiment_daily.csv is a structured template with blank fields."
+    ]
+  }
+}
